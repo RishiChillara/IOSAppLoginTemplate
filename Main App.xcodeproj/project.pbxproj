@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C0D354920FCB6C700348046 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE68020FC6AA100128FB6 /* Assets.xcassets */; };
 		3C2AE67A20FC6A9D00128FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE67920FC6A9D00128FB6 /* AppDelegate.swift */; };
 		3C2AE67C20FC6A9D00128FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE67B20FC6A9D00128FB6 /* ViewController.swift */; };
 		3C2AE67F20FC6A9D00128FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE67D20FC6A9D00128FB6 /* Main.storyboard */; };
-		3C2AE68120FC6AA100128FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE68020FC6AA100128FB6 /* Assets.xcassets */; };
 		3C2AE68420FC6AA100128FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C2AE68220FC6AA100128FB6 /* LaunchScreen.storyboard */; };
 		3C2AE68F20FC6AA100128FB6 /* Main_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE68E20FC6AA100128FB6 /* Main_AppTests.swift */; };
 		3C2AE69A20FC6AA200128FB6 /* Main_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2AE69920FC6AA200128FB6 /* Main_AppUITests.swift */; };
+		3C55BEB120FD2FF500CB14A5 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C55BEB020FD2FF500CB14A5 /* Button.swift */; };
+		3C55BEB720FD58EA00CB14A5 /* Haikus.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEB620FD58EA00CB14A5 /* Haikus.jpg */; };
+		3C55BEB920FD58F200CB14A5 /* Tranquil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEB820FD58F100CB14A5 /* Tranquil.jpg */; };
+		3C55BEBB20FD594E00CB14A5 /* Anamnisar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEBA20FD594D00CB14A5 /* Anamnisar.jpg */; };
+		3C55BEBD20FD5AB300CB14A5 /* Shutterstock_-_doctors_-_sheff_belpqi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEBC20FD5AB300CB14A5 /* Shutterstock_-_doctors_-_sheff_belpqi.jpg */; };
+		3C55BEBF20FE76DB00CB14A5 /* Cherryblossoms (1).jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEBE20FE76DB00CB14A5 /* Cherryblossoms (1).jpg */; };
+		3C55BEC320FE7AA200CB14A5 /* google.png in Resources */ = {isa = PBXBuildFile; fileRef = 3C55BEC220FE7AA200CB14A5 /* google.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,13 @@
 		3C2AE69520FC6AA200128FB6 /* Main AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Main AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C2AE69920FC6AA200128FB6 /* Main_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main_AppUITests.swift; sourceTree = "<group>"; };
 		3C2AE69B20FC6AA200128FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C55BEB020FD2FF500CB14A5 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		3C55BEB620FD58EA00CB14A5 /* Haikus.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Haikus.jpg; path = ../../Haikus.jpg; sourceTree = "<group>"; };
+		3C55BEB820FD58F100CB14A5 /* Tranquil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Tranquil.jpg; path = ../../Tranquil.jpg; sourceTree = "<group>"; };
+		3C55BEBA20FD594D00CB14A5 /* Anamnisar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Anamnisar.jpg; path = ../../Anamnisar.jpg; sourceTree = "<group>"; };
+		3C55BEBC20FD5AB300CB14A5 /* Shutterstock_-_doctors_-_sheff_belpqi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Shutterstock_-_doctors_-_sheff_belpqi.jpg"; path = "../../Shutterstock_-_doctors_-_sheff_belpqi.jpg"; sourceTree = "<group>"; };
+		3C55BEBE20FE76DB00CB14A5 /* Cherryblossoms (1).jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Cherryblossoms (1).jpg"; path = "../../Cherryblossoms (1).jpg"; sourceTree = "<group>"; };
+		3C55BEC220FE7AA200CB14A5 /* google.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = google.png; path = ../../google.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +114,16 @@
 				3C2AE67920FC6A9D00128FB6 /* AppDelegate.swift */,
 				3C2AE67B20FC6A9D00128FB6 /* ViewController.swift */,
 				3C2AE67D20FC6A9D00128FB6 /* Main.storyboard */,
+				3C55BEB620FD58EA00CB14A5 /* Haikus.jpg */,
 				3C2AE68020FC6AA100128FB6 /* Assets.xcassets */,
+				3C55BEB820FD58F100CB14A5 /* Tranquil.jpg */,
+				3C55BEBE20FE76DB00CB14A5 /* Cherryblossoms (1).jpg */,
+				3C55BEBC20FD5AB300CB14A5 /* Shutterstock_-_doctors_-_sheff_belpqi.jpg */,
+				3C55BEBA20FD594D00CB14A5 /* Anamnisar.jpg */,
 				3C2AE68220FC6AA100128FB6 /* LaunchScreen.storyboard */,
+				3C55BEC220FE7AA200CB14A5 /* google.png */,
 				3C2AE68520FC6AA100128FB6 /* Info.plist */,
+				3C55BEB020FD2FF500CB14A5 /* Button.swift */,
 			);
 			path = "Main App";
 			sourceTree = "<group>";
@@ -230,7 +251,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2AE68420FC6AA100128FB6 /* LaunchScreen.storyboard in Resources */,
-				3C2AE68120FC6AA100128FB6 /* Assets.xcassets in Resources */,
+				3C55BEC320FE7AA200CB14A5 /* google.png in Resources */,
+				3C55BEBB20FD594E00CB14A5 /* Anamnisar.jpg in Resources */,
+				3C55BEB920FD58F200CB14A5 /* Tranquil.jpg in Resources */,
+				3C55BEB720FD58EA00CB14A5 /* Haikus.jpg in Resources */,
+				3C0D354920FCB6C700348046 /* Assets.xcassets in Resources */,
+				3C55BEBD20FD5AB300CB14A5 /* Shutterstock_-_doctors_-_sheff_belpqi.jpg in Resources */,
+				3C55BEBF20FE76DB00CB14A5 /* Cherryblossoms (1).jpg in Resources */,
 				3C2AE67F20FC6A9D00128FB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C2AE67C20FC6A9D00128FB6 /* ViewController.swift in Sources */,
+				3C55BEB120FD2FF500CB14A5 /* Button.swift in Sources */,
 				3C2AE67A20FC6A9D00128FB6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +461,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD8JH4V7J9;
 				INFOPLIST_FILE = "Main App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +480,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = MD8JH4V7J9;
 				INFOPLIST_FILE = "Main App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
