@@ -16,9 +16,6 @@ class ViewController: UIViewController {
         print ("button clicked")
     }
     
-    @IBAction func loginFormSubmit(_ sender: Any) {
-
-    }
   
     
     
